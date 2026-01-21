@@ -16,8 +16,8 @@ public class Game {
     }
 
     public static void main(String[] args) {
-        Map cityMap = createMap("city", 5, 5);
-        System.out.println("City Map:");
+        Map cityMap = createMap("city", 6, 6);
+        System.out.println("The City Map:");
         cityMap.display();
 
         System.out.println();
